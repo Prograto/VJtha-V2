@@ -10,10 +10,10 @@ function renderExamUI() {
           <div class="question-body">
             <img id="question-img" src="" alt="Question Image" class="question-img" />
             <div class="options">
-              <label><input type="radio" name="option" value="1"> 1</label><br>
-              <label><input type="radio" name="option" value="2"> 2</label><br>
-              <label><input type="radio" name="option" value="3"> 3</label><br>
-              <label><input type="radio" name="option" value="4"> 4</label>
+              <label><input type="radio" name="option" value="1">option 1</label><br>
+              <label><input type="radio" name="option" value="2">option 2</label><br>
+              <label><input type="radio" name="option" value="3">option 3</label><br>
+              <label><input type="radio" name="option" value="4">option 4</label>
             </div>
             <div class="actions">
               <button onclick="markForReview()">Mark for Review & Next</button>
